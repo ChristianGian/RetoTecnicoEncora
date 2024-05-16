@@ -1,0 +1,291 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-16T15:21:53.515Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver is not executable: /Users/jonathanvillegas/Documents/Encora-JuanArones/./src/test/resources/drivers/chromedriver.exe\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat definitions.Base.setUp(Base.java:24)\n",
+              "duration": 22060000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "definitions.Base.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verificar el registro de usuario",
+        "description": "",
+        "id": "el-usuario-quiere-hacer-un-registro-y-el-login-respectivo-en-la-web.;verificar-el-registro-de-usuario;;2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat definitions.Base.tearDown(Base.java:44)\n",
+              "duration": 98000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "definitions.Base.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 108000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "se abre la pagina web",
+            "match": {
+              "location": "definitions.LoginUsuariosDefinitions.seAbreLaPaginaWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "el usuario selecciona registrar",
+            "match": {
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioSeleccionaRegistrar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "el usuario llena el campo \"Juan\", \"Arones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Juan\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Arones\"",
+                  "offset": 34
+                }
+              ],
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioLlenaElCampo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "el usuario llena el campo direccion \"jr puno lima\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jr puno lima\"",
+                  "offset": 36
+                }
+              ],
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioLlenaElCampoDireccion(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "el usuario llena el campo ciudad \"lima\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lima\"",
+                  "offset": 33
+                }
+              ],
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioLlenaElCampoCiudad(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "el usuario llena el campo provincia \"Lima\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lima\"",
+                  "offset": 36
+                }
+              ],
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioLlenaElCampoProvincia(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "el usuario llena el campo codigo postal \"10101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10101\"",
+                  "offset": 40
+                }
+              ],
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioLlenaElCampoCodigoPostal(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "el usuario llena el campo telefono \"989898989\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"989898989\"",
+                  "offset": 35
+                }
+              ],
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioLlenaElCampoTelefono(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "el usuario llena el campo ssn \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 30
+                }
+              ],
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioLlenaElCampoSsn(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "el usuario llena el campo username \"juanca\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"juanca\"",
+                  "offset": 35
+                }
+              ],
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioLlenaElCampoUsername(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "el usuario llena el campo password \"Juanca111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Juanca111\"",
+                  "offset": 35
+                }
+              ],
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioLlenaElCampoPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "el usuario llena el campo confirmar password \"Juanca111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Juanca111\"",
+                  "offset": 45
+                }
+              ],
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioLlenaElCampoConfirmarPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "el usuario selecciona enviar",
+            "match": {
+              "location": "definitions.LoginUsuariosDefinitions.elUsuarioSeleccionaEnviar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "el texto buscado es \"Your account was created successfully. You are now logged in.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your account was created successfully. You are now logged in.\"",
+                  "offset": 20
+                }
+              ],
+              "location": "definitions.LoginUsuariosDefinitions.elTextoBuscadoEs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crearUsuario"
+          }
+        ]
+      }
+    ],
+    "name": "El usuario quiere hacer un registro y el login respectivo en la web.",
+    "description": "",
+    "id": "el-usuario-quiere-hacer-un-registro-y-el-login-respectivo-en-la-web.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/loginUsuarios.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Encora-JuanArones" />
+        <module name="ejercicioauto2" />
+        <module name="ejercicioauto2-ADIDAS" />
+        <module name="retoTecnicoEncora-EdsonRodriguez" />
+        <module name="ejercicioencora" />
+        <module name="retotecnicoEncora" />
+        <module name="ejercicio" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
+  </component>
+</project>
